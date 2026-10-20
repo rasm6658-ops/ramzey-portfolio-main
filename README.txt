@@ -1,0 +1,1 @@
+Ramzey Smith original portfolio with an added Retail Sales Analytics Power BI project. Upload index.html, style.css, assets folder, and powerbi folder to the ROOT of ramzey-portfolio1. Back up your current repository before replacing files. Existing SQL content is preserved in index.html.
