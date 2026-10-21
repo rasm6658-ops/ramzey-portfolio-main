@@ -1,10 +1,155 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Retail Sales Analytics | Power BI Portfolio</title><style>:root{--bg:#0b1220;--card:#152139;--text:#eaf1ff;--muted:#aabbd5;--accent:#60a5fa}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,sans-serif}header{padding:68px max(24px,calc((100vw - 1120px)/2));background:linear-gradient(135deg,#162c51,#0b1220)}.tag{color:#93c5fd;letter-spacing:.12em;font-size:.8rem;font-weight:700}h1{font-size:clamp(2.1rem,5vw,3.5rem);line-height:1.12;margin:14px 0}header p{max-width:700px;color:var(--muted);line-height:1.65}.actions{margin-top:24px}a{color:#93c5fd;text-decoration:none;font-weight:600}a:hover{text-decoration:underline}.actions a{display:inline-block;border:1px solid #486b9c;border-radius:8px;padding:10px 16px;margin-right:10px}main{max-width:1120px;margin:auto;padding:40px 24px 72px}.intro{color:var(--muted);line-height:1.7;max-width:840px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,440px),1fr));gap:24px;margin-top:30px}.card{background:var(--card);border:1px solid #2b3d5c;border-radius:14px;overflow:hidden}.card img{display:block;width:100%;aspect-ratio:16/10;object-fit:contain;background:#f9f9f9}.content{padding:22px}.eyebrow{font-size:.73rem;letter-spacing:.1em;color:#93c5fd;font-weight:700}h2{font-size:1.25rem;margin:10px 0}.content p{color:var(--muted);line-height:1.6;min-height:50px}footer{border-top:1px solid #2b3d5c;padding:25px;text-align:center;color:var(--muted);font-size:.9rem}@media(max-width:500px){header{padding:45px 24px}}</style></head><body><header><div class="tag">DATA ANALYTICS PORTFOLIO</div><h1>Retail Sales Analytics<br>with Power BI</h1><p>A multi-page retail analysis exploring product performance, store revenue, profitability, customer behavior, delivery time, and sales trends.</p><div class="actions"><a href="source-report.pdf">View original report PDF ↗</a><a href="#visualizations">Explore visualizations ↓</a></div></header><main><h2 id="visualizations">Project visualizations</h2><p class="intro">Built with Power BI using sales, product, customer, and store data. The ten sections below cover the data model and nine report visualizations. The two product charts originally exported together have been separated into individual pages.</p><section class="grid"><article class="card" id="page-01"><img loading="lazy" src="images/01-star-schema.png" alt="Power BI star schema model with factSales linked to product, store, and customer dimensions"><div class="content"><span class="eyebrow">REPORT PAGE 01</span><h2>Star Schema &amp; Data Model</h2><p><strong>factSales</strong> stores sales transactions, quantities, prices, order dates and foreign keys. <strong>dimProduct</strong> contains product names, brands and categories; <strong>dimStore</strong> provides store and location details; <strong>dimCustomer</strong> contains customer demographics. Each dimension connects to factSales through a many-to-one relationship.</p><a href="images/01-star-schema.png" target="_blank" rel="noopener">View full diagram ↗</a></div></article>
-<article class="card" id="page-02"><img loading="lazy" src="images/02-top-products-volume.png" alt="Top Products by Volume Power BI visualization"><div class="content"><span class="eyebrow">REPORT PAGE 02</span><h2>Top Products by Volume</h2><p>Best-selling products ranked by units sold, with category distinctions.</p><a href="images/02-top-products-volume.png" target="_blank" rel="noopener">View full chart ↗</a></div></article>
-<article class="card" id="page-03"><img loading="lazy" src="images/03-top-products-revenue.png" alt="Top Products by Revenue Power BI visualization"><div class="content"><span class="eyebrow">REPORT PAGE 03</span><h2>Top Products by Revenue</h2><p>Top products ranked by sales revenue.</p><a href="images/03-top-products-revenue.png" target="_blank" rel="noopener">View full chart ↗</a></div></article>
-<article class="card" id="page-04"><img loading="lazy" src="images/04-store-revenue.png" alt="Store Sales Revenue Power BI visualization"><div class="content"><span class="eyebrow">REPORT PAGE 04</span><h2>Store Sales Revenue</h2><p>Revenue comparison by store; the online store is included in the exported chart.</p><a href="images/04-store-revenue.png" target="_blank" rel="noopener">View full chart ↗</a></div></article>
-<article class="card" id="page-05"><img loading="lazy" src="images/05-category-profit.png" alt="Most Profitable Categories Power BI visualization"><div class="content"><span class="eyebrow">REPORT PAGE 05</span><h2>Most Profitable Categories</h2><p>Computers lead the product categories in reported profit.</p><a href="images/05-category-profit.png" target="_blank" rel="noopener">View full chart ↗</a></div></article>
-<article class="card" id="page-06"><img loading="lazy" src="images/06-customer-purchase-history.png" alt="Customer Purchase History Power BI visualization"><div class="content"><span class="eyebrow">REPORT PAGE 06</span><h2>Customer Purchase History</h2><p>A customer-product purchase table; identifying repeat buyers requires further analysis.</p><a href="images/06-customer-purchase-history.png" target="_blank" rel="noopener">View full chart ↗</a></div></article>
-<article class="card" id="page-07"><img loading="lazy" src="images/07-online-delivery-time.png" alt="Online Delivery Time Power BI visualization"><div class="content"><span class="eyebrow">REPORT PAGE 07</span><h2>Online Delivery Time</h2><p>Average reported delivery days by year, 2021–2024.</p><a href="images/07-online-delivery-time.png" target="_blank" rel="noopener">View full chart ↗</a></div></article>
-<article class="card" id="page-08"><img loading="lazy" src="images/08-monthly-sales-profit.png" alt="Monthly Revenue and Profit Power BI visualization"><div class="content"><span class="eyebrow">REPORT PAGE 08</span><h2>Monthly Revenue and Profit</h2><p>Monthly sales revenue and profit trends from 2021 to 2024.</p><a href="images/08-monthly-sales-profit.png" target="_blank" rel="noopener">View full chart ↗</a></div></article>
-<article class="card" id="page-09"><img loading="lazy" src="images/09-age-category-spending.png" alt="Spending by Age and Category Power BI visualization"><div class="content"><span class="eyebrow">REPORT PAGE 09</span><h2>Spending by Age and Category</h2><p>Spending by individual age and product category; age bands are not yet implemented.</p><a href="images/09-age-category-spending.png" target="_blank" rel="noopener">View full chart ↗</a></div></article>
-<article class="card" id="page-10"><img loading="lazy" src="images/10-gender-country-spending.png" alt="Spending by Gender and Country Power BI visualization"><div class="content"><span class="eyebrow">REPORT PAGE 10</span><h2>Spending by Gender and Country</h2><p>Revenue split by gender across customer countries.</p><a href="images/10-gender-country-spending.png" target="_blank" rel="noopener">View full chart ↗</a></div></article></section><h2>Project notes</h2><p class="intro">This portfolio documents the current report export. Before final submission, verify currency conversions and order-level delivery averages, create actual age groups, identify repeat customers by distinct orders, and correct the physical-stores-only chart title or filter.</p></main><footer>Retail Sales Analytics · Power BI portfolio project</footer></body></html>
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Retail Sales Analytics | Power BI Portfolio</title>
+<style>
+:root{--bg:#0b1220;--card:#152139;--text:#eaf1ff;--muted:#aabbd5;--accent:#60a5fa}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,sans-serif}
+header{padding:68px max(24px,calc((100vw - 1120px)/2));background:linear-gradient(135deg,#162c51,#0b1220)}
+.tag{color:#93c5fd;letter-spacing:.12em;font-size:.8rem;font-weight:700}
+h1{font-size:clamp(2.1rem,5vw,3.5rem);line-height:1.12;margin:14px 0}
+header p{max-width:700px;color:var(--muted);line-height:1.65}
+.actions{margin-top:24px}
+a{color:#93c5fd;text-decoration:none;font-weight:600}
+a:hover{text-decoration:underline}
+.actions a{display:inline-block;border:1px solid #486b9c;border-radius:8px;padding:10px 16px;margin-right:10px}
+main{max-width:1120px;margin:auto;padding:40px 24px 72px}
+.intro{color:var(--muted);line-height:1.7;max-width:840px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,440px),1fr));gap:24px;margin-top:30px}
+.card{background:var(--card);border:1px solid #2b3d5c;border-radius:14px;overflow:hidden}
+.card img{display:block;width:100%;aspect-ratio:16/10;object-fit:contain;background:#f9f9f9}
+.content{padding:22px}
+.eyebrow{font-size:.73rem;letter-spacing:.1em;color:#93c5fd;font-weight:700}
+h2{font-size:1.25rem;margin:10px 0}
+.content p{color:var(--muted);line-height:1.6;min-height:50px}
+footer{border-top:1px solid #2b3d5c;padding:25px;text-align:center;color:var(--muted);font-size:.9rem}
+@media(max-width:500px){header{padding:45px 24px}}
+</style>
+</head>
+<body>
+<header>
+<div class="tag">DATA ANALYTICS PORTFOLIO</div>
+<h1>Retail Sales Analytics<br>with Power BI</h1>
+<p>A multi-page retail analysis exploring product performance, store revenue, profitability, customer behavior, delivery time, and sales trends.</p>
+<div class="actions">
+<a href="source-report.pdf">View original report PDF ↗</a>
+<a href="#visualizations">Explore visualizations ↓</a>
+</div>
+</header>
+
+<main>
+<h2 id="visualizations">Project visualizations</h2>
+<p class="intro">Built with Power BI using sales, product, customer, and store data. The ten sections below cover the data model and nine report visualizations. The two product charts originally exported together have been separated into individual pages.</p>
+
+<section class="grid">
+
+<article class="card" id="page-01">
+<img loading="lazy" src="images/01-star-schema.png" alt="Power BI star schema model with factSales linked to product, store, and customer dimensions">
+<div class="content">
+<span class="eyebrow">REPORT PAGE 01</span>
+<h2>Star Schema &amp; Data Model</h2>
+<p><strong>factSales</strong> stores sales transactions, quantities, prices, order dates and foreign keys. <strong>dimProduct</strong> contains product names, brands and categories; <strong>dimStore</strong> provides store and location details; <strong>dimCustomer</strong> contains customer demographics. Each dimension connects to factSales through a many-to-one relationship.</p>
+<a href="images/01-star-schema.png" target="_blank" rel="noopener">View full diagram ↗</a>
+</div>
+</article>
+
+<article class="card" id="page-02">
+<img loading="lazy" src="images/02-top-products-volume.png" alt="Top Products by Volume Power BI visualization">
+<div class="content">
+<span class="eyebrow">REPORT PAGE 02</span>
+<h2>Top Products by Volume</h2>
+<p>Best-selling products ranked by units sold, with category distinctions.</p>
+<a href="images/02-top-products-volume.png" target="_blank" rel="noopener">View full chart ↗</a>
+</div>
+</article>
+
+<article class="card" id="page-03">
+<img loading="lazy" src="images/03-top-products-revenue.png" alt="Top Products by Revenue Power BI visualization">
+<div class="content">
+<span class="eyebrow">REPORT PAGE 03</span>
+<h2>Top Products by Revenue</h2>
+<p>Top products ranked by sales revenue.</p>
+<a href="images/03-top-products-revenue.png" target="_blank" rel="noopener">View full chart ↗</a>
+</div>
+</article>
+
+<article class="card" id="page-04">
+<img loading="lazy" src="images/04-store-revenue.png" alt="Store Sales Revenue Power BI visualization">
+<div class="content">
+<span class="eyebrow">REPORT PAGE 04</span>
+<h2>Store Sales Revenue</h2>
+<p>Revenue comparison by store; the online store is included in the exported chart.</p>
+<a href="images/04-store-revenue.png" target="_blank" rel="noopener">View full chart ↗</a>
+</div>
+</article>
+
+<article class="card" id="page-05">
+<img loading="lazy" src="images/05-category-profit.png" alt="Most Profitable Categories Power BI visualization">
+<div class="content">
+<span class="eyebrow">REPORT PAGE 05</span>
+<h2>Most Profitable Categories</h2>
+<p>Computers lead the product categories in reported profit.</p>
+<a href="images/05-category-profit.png" target="_blank" rel="noopener">View full chart ↗</a>
+</div>
+</article>
+
+<article class="card" id="page-06">
+<img loading="lazy" src="images/06-customer-purchase-history.png" alt="Customer Purchase History Power BI visualization">
+<div class="content">
+<span class="eyebrow">REPORT PAGE 06</span>
+<h2>Customer Purchase History</h2>
+<p>A customer-product purchase table; identifying repeat buyers requires further analysis.</p>
+<a href="images/06-customer-purchase-history.png" target="_blank" rel="noopener">View full chart ↗</a>
+</div>
+</article>
+
+<article class="card" id="page-07">
+<img loading="lazy" src="images/07-online-delivery-time.png" alt="Online Delivery Time Power BI visualization">
+<div class="content">
+<span class="eyebrow">REPORT PAGE 07</span>
+<h2>Online Delivery Time</h2>
+<p>Average reported delivery days by year, 2021–2024.</p>
+<a href="images/07-online-delivery-time.png" target="_blank" rel="noopener">View full chart ↗</a>
+</div>
+</article>
+
+<article class="card" id="page-08">
+<img loading="lazy" src="images/08-monthly-sales-profit.png" alt="Monthly Revenue and Profit Power BI visualization">
+<div class="content">
+<span class="eyebrow">REPORT PAGE 08</span>
+<h2>Monthly Revenue and Profit</h2>
+<p>Monthly sales revenue and profit trends from 2021 to 2024.</p>
+<a href="images/08-monthly-sales-profit.png" target="_blank" rel="noopener">View full chart ↗</a>
+</div>
+</article>
+
+<article class="card" id="page-09">
+<img loading="lazy" src="images/09-age-category-spending.png" alt="Spending by Age and Category Power BI visualization">
+<div class="content">
+<span class="eyebrow">REPORT PAGE 09</span>
+<h2>Spending by Age and Category</h2>
+<p>Spending by individual age and product category; age bands are not yet implemented.</p>
+<a href="images/09-age-category-spending.png" target="_blank" rel="noopener">View full chart ↗</a>
+</div>
+</article>
+
+<article class="card" id="page-10">
+<img loading="lazy" src="images/10-gender-country-spending.png" alt="Spending by Gender and Country Power BI visualization">
+<div class="content">
+<span class="eyebrow">REPORT PAGE 10</span>
+<h2>Spending by Gender and Country</h2>
+<p>Revenue split by gender across customer countries.</p>
+<a href="images/10-gender-country-spending.png" target="_blank" rel="noopener">View full chart ↗</a>
+</div>
+</article>
+
+</section>
+</main>
+
+<footer>Retail Sales Analytics · Power BI portfolio project</footer>
+</body>
+</html>
